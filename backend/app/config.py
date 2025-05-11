@@ -1,0 +1,4 @@
+import os
+
+DATABASE_URL = os.getenv("DATABASE_URL")
+PGVECTOR_DIM = 1536
